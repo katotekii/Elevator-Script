@@ -51,7 +51,7 @@ do
                     table.wipe(currentZone)
                 end,
                 nearby = function(self)
-                    if Config.Elevators[self.eleId] and self.currentDistance < 2 then
+                    if Config.Elevators[self.eleId] and self.currentDistance < 2 and not IsEntityDead(cache.ped) then
                         if type(Config.Elevators[self.eleId].jobs) == 'table' then 
                             for nothing,jobName in pairs(Config.Elevators[self.eleId].jobs) do
                                 if core.PlayerData.job.name == jobName then
