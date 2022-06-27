@@ -1,7 +1,7 @@
 Config = {}
 
 Config.DrawMarker = true -- if you dont want marker put here false
-Config.EnableFadeOut = false
+Config.EnableFadeOut = false -- if you dont want screen fading disable this
 
 Config.Elevators = {
 
