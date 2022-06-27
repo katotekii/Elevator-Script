@@ -4,4 +4,4 @@
 
 # [Showcase](https://streamable.com/z0een6)
 
-To add new elevator just follow config
+To add new elevators just follow config (every thing is explained there)
