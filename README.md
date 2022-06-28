@@ -1,9 +1,7 @@
-# Elevator-Script
-# Dependency 
-[ox_lib](https://github.com/overextended/ox_lib)
+## Elevator-Script
+Follow the examples at the top of client.lua to add new elevators; everything is explained.
 
-# [Showcase](https://streamable.com/z0een6)
+- [Preview Video](https://streamable.com/z0een6)
 
-To add new elevators just follow config (every thing is explained there)
-
-This is for esx
+## Dependencies
+- [ox_lib](https://github.com/overextended/ox_lib)
