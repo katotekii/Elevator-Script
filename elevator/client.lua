@@ -1,6 +1,4 @@
-local core = lib.getCore()
-
-if core.resource == 'es_extended' then 
+if GetResourceState('es_extended'):find('start') then
 
 local function enterElevator(zone)
     local options = {}
