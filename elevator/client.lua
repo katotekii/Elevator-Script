@@ -52,7 +52,7 @@ do
                     if Config.Elevators[self.eleId] and self.currentDistance < 2 and not IsEntityDead(cache.ped) then
                         if type(Config.Elevators[self.eleId].jobs) == 'table' then 
                             for nothing,jobName in pairs(Config.Elevators[self.eleId].jobs) do
-                                if core.PlayerData.job.name == jobName then
+                                if ESX.PlayerData.job.name == jobName then
 
                                     if Config.DrawMarker then
                                         DrawMarker(2, self.coords.x, self.coords.y, self.coords.z, 0.0, 0.0, 0.0, 0.0, 180.0, 0.0, 1.0, 1.0, 1.0, 200, 20, 20, 50, false, true, 2, nil, nil, false)
