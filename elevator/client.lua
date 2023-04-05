@@ -1,4 +1,4 @@
-if GetResourceState('es_extended'):find('start') then
+local ESX = exports['es_extended']:getSharedObject()
 
 local function enterElevator(zone)
     local options = {}
@@ -82,6 +82,4 @@ do
             })
         end
     end
-end
-
 end
