@@ -1,6 +1,6 @@
 # Elevator-Script
 # Dependency 
-[ox_lib](https://github.com/overextended/ox_lib)
+[ox_lib](https://github.com/overextended/ox_lib) 3.0.0 or above
 
 # [Showcase](https://streamable.com/z0een6)
 
